@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5856042120045A6400B26AEA /* ACCNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5856042020045A6400B26AEA /* ACCNetworkTool.m */; };
+		58861642200376A000D5F223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58861641200376A000D5F223 /* AppDelegate.m */; };
+		58861645200376A000D5F223 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58861644200376A000D5F223 /* ViewController.m */; };
+		58861648200376A000D5F223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58861646200376A000D5F223 /* Main.storyboard */; };
+		5886164A200376A000D5F223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58861649200376A000D5F223 /* Assets.xcassets */; };
+		5886164D200376A000D5F223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5886164B200376A000D5F223 /* LaunchScreen.storyboard */; };
+		58861650200376A100D5F223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5886164F200376A100D5F223 /* main.m */; };
+		5886165A200376A100D5F223 /* AutoRefreshToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58861659200376A100D5F223 /* AutoRefreshToolTests.m */; };
+		58861665200376A100D5F223 /* AutoRefreshToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58861664200376A100D5F223 /* AutoRefreshToolUITests.m */; };
+		5886167820037BE100D5F223 /* TestAutoRefreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5886167720037BE100D5F223 /* TestAutoRefreshVC.m */; };
+		5886167B20037C9000D5F223 /* AutoRefreshTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5886167A20037C9000D5F223 /* AutoRefreshTool.m */; };
+		5886167E20037D5B00D5F223 /* AutoRefreshModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5886167D20037D5B00D5F223 /* AutoRefreshModel.m */; };
+		58DE6E2B20060B1A00F84442 /* TestListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DE6E2920060B1A00F84442 /* TestListVC.m */; };
+		58DE6E2C20060B1A00F84442 /* TestListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58DE6E2A20060B1A00F84442 /* TestListVC.xib */; };
+		58DE6E2F20060B4400F84442 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DE6E2E20060B4400F84442 /* TestModel.m */; };
+		88C9673C35D947BB70105583 /* Pods_AutoRefreshToolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FA352D139B767D548F63A3 /* Pods_AutoRefreshToolTests.framework */; };
+		CF72049B95D31C5494C7B84C /* Pods_AutoRefreshTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90659FBC031662D3FF064AA /* Pods_AutoRefreshTool.framework */; };
+		F32885FE0666491D13030DB6 /* Pods_AutoRefreshToolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACB92CB03534DCE0F1794EF /* Pods_AutoRefreshToolUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58861656200376A100D5F223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58861635200376A000D5F223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5886163C200376A000D5F223;
+			remoteInfo = AutoRefreshTool;
+		};
+		58861661200376A100D5F223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58861635200376A000D5F223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5886163C200376A000D5F223;
+			remoteInfo = AutoRefreshTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1655D6E37CFAEA94533AE780 /* Pods-AutoRefreshToolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoRefreshToolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoRefreshToolUITests/Pods-AutoRefreshToolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19FA352D139B767D548F63A3 /* Pods_AutoRefreshToolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoRefreshToolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7BE39820C938DB0AA9856A /* Pods-AutoRefreshTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoRefreshTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoRefreshTool/Pods-AutoRefreshTool.release.xcconfig"; sourceTree = "<group>"; };
+		5856041F20045A6400B26AEA /* ACCNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACCNetworkTool.h; sourceTree = "<group>"; };
+		5856042020045A6400B26AEA /* ACCNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCNetworkTool.m; sourceTree = "<group>"; };
+		5886163D200376A000D5F223 /* AutoRefreshTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoRefreshTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58861640200376A000D5F223 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58861641200376A000D5F223 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58861643200376A000D5F223 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58861644200376A000D5F223 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58861647200376A000D5F223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58861649200376A000D5F223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5886164C200376A000D5F223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5886164E200376A100D5F223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5886164F200376A100D5F223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58861655200376A100D5F223 /* AutoRefreshToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoRefreshToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58861659200376A100D5F223 /* AutoRefreshToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoRefreshToolTests.m; sourceTree = "<group>"; };
+		5886165B200376A100D5F223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58861660200376A100D5F223 /* AutoRefreshToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoRefreshToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58861664200376A100D5F223 /* AutoRefreshToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoRefreshToolUITests.m; sourceTree = "<group>"; };
+		58861666200376A100D5F223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5886167620037BE100D5F223 /* TestAutoRefreshVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAutoRefreshVC.h; sourceTree = "<group>"; };
+		5886167720037BE100D5F223 /* TestAutoRefreshVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAutoRefreshVC.m; sourceTree = "<group>"; };
+		5886167920037C9000D5F223 /* AutoRefreshTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoRefreshTool.h; sourceTree = "<group>"; };
+		5886167A20037C9000D5F223 /* AutoRefreshTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoRefreshTool.m; sourceTree = "<group>"; };
+		5886167C20037D5B00D5F223 /* AutoRefreshModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoRefreshModel.h; sourceTree = "<group>"; };
+		5886167D20037D5B00D5F223 /* AutoRefreshModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoRefreshModel.m; sourceTree = "<group>"; };
+		58DE6E2820060B1A00F84442 /* TestListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestListVC.h; sourceTree = "<group>"; };
+		58DE6E2920060B1A00F84442 /* TestListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestListVC.m; sourceTree = "<group>"; };
+		58DE6E2A20060B1A00F84442 /* TestListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestListVC.xib; sourceTree = "<group>"; };
+		58DE6E2D20060B4400F84442 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		58DE6E2E20060B4400F84442 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		663E4CF1A786237C000DD9F8 /* Pods-AutoRefreshToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoRefreshToolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoRefreshToolUITests/Pods-AutoRefreshToolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79C4668B30D9F0C462AC9ACB /* Pods-AutoRefreshToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoRefreshToolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoRefreshToolTests/Pods-AutoRefreshToolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8ACB92CB03534DCE0F1794EF /* Pods_AutoRefreshToolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoRefreshToolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		984B0A50E345041B74AB3AA2 /* Pods-AutoRefreshTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoRefreshTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoRefreshTool/Pods-AutoRefreshTool.debug.xcconfig"; sourceTree = "<group>"; };
+		E98C7941C391A50018B17E10 /* Pods-AutoRefreshToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoRefreshToolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoRefreshToolTests/Pods-AutoRefreshToolTests.release.xcconfig"; sourceTree = "<group>"; };
+		F90659FBC031662D3FF064AA /* Pods_AutoRefreshTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoRefreshTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5886163A200376A000D5F223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF72049B95D31C5494C7B84C /* Pods_AutoRefreshTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58861652200376A100D5F223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C9673C35D947BB70105583 /* Pods_AutoRefreshToolTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5886165D200376A100D5F223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32885FE0666491D13030DB6 /* Pods_AutoRefreshToolUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5856041E20045A6400B26AEA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5856041F20045A6400B26AEA /* ACCNetworkTool.h */,
+				5856042020045A6400B26AEA /* ACCNetworkTool.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		58861634200376A000D5F223 = {
+			isa = PBXGroup;
+			children = (
+				5886163F200376A000D5F223 /* AutoRefreshTool */,
+				58861658200376A100D5F223 /* AutoRefreshToolTests */,
+				58861663200376A100D5F223 /* AutoRefreshToolUITests */,
+				5886163E200376A000D5F223 /* Products */,
+				E0BE1C0F39402F1303D38B98 /* Pods */,
+				B36089C4DBEDDA7420D8E04D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5886163E200376A000D5F223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5886163D200376A000D5F223 /* AutoRefreshTool.app */,
+				58861655200376A100D5F223 /* AutoRefreshToolTests.xctest */,
+				58861660200376A100D5F223 /* AutoRefreshToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5886163F200376A000D5F223 /* AutoRefreshTool */ = {
+			isa = PBXGroup;
+			children = (
+				5856041E20045A6400B26AEA /* Networking */,
+				588616722003783500D5F223 /* RefreshTool */,
+				58861640200376A000D5F223 /* AppDelegate.h */,
+				58861641200376A000D5F223 /* AppDelegate.m */,
+				58861643200376A000D5F223 /* ViewController.h */,
+				58861644200376A000D5F223 /* ViewController.m */,
+				58DE6E2D20060B4400F84442 /* TestModel.h */,
+				58DE6E2E20060B4400F84442 /* TestModel.m */,
+				58DE6E2820060B1A00F84442 /* TestListVC.h */,
+				58DE6E2920060B1A00F84442 /* TestListVC.m */,
+				58DE6E2A20060B1A00F84442 /* TestListVC.xib */,
+				58861646200376A000D5F223 /* Main.storyboard */,
+				58861649200376A000D5F223 /* Assets.xcassets */,
+				5886164B200376A000D5F223 /* LaunchScreen.storyboard */,
+				5886164E200376A100D5F223 /* Info.plist */,
+				5886164F200376A100D5F223 /* main.m */,
+			);
+			path = AutoRefreshTool;
+			sourceTree = "<group>";
+		};
+		58861658200376A100D5F223 /* AutoRefreshToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				58861659200376A100D5F223 /* AutoRefreshToolTests.m */,
+				5886165B200376A100D5F223 /* Info.plist */,
+			);
+			path = AutoRefreshToolTests;
+			sourceTree = "<group>";
+		};
+		58861663200376A100D5F223 /* AutoRefreshToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58861664200376A100D5F223 /* AutoRefreshToolUITests.m */,
+				58861666200376A100D5F223 /* Info.plist */,
+			);
+			path = AutoRefreshToolUITests;
+			sourceTree = "<group>";
+		};
+		588616722003783500D5F223 /* RefreshTool */ = {
+			isa = PBXGroup;
+			children = (
+				5886167920037C9000D5F223 /* AutoRefreshTool.h */,
+				5886167A20037C9000D5F223 /* AutoRefreshTool.m */,
+				5886167C20037D5B00D5F223 /* AutoRefreshModel.h */,
+				5886167D20037D5B00D5F223 /* AutoRefreshModel.m */,
+				5886167620037BE100D5F223 /* TestAutoRefreshVC.h */,
+				5886167720037BE100D5F223 /* TestAutoRefreshVC.m */,
+			);
+			path = RefreshTool;
+			sourceTree = "<group>";
+		};
+		B36089C4DBEDDA7420D8E04D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F90659FBC031662D3FF064AA /* Pods_AutoRefreshTool.framework */,
+				19FA352D139B767D548F63A3 /* Pods_AutoRefreshToolTests.framework */,
+				8ACB92CB03534DCE0F1794EF /* Pods_AutoRefreshToolUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0BE1C0F39402F1303D38B98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				984B0A50E345041B74AB3AA2 /* Pods-AutoRefreshTool.debug.xcconfig */,
+				4D7BE39820C938DB0AA9856A /* Pods-AutoRefreshTool.release.xcconfig */,
+				79C4668B30D9F0C462AC9ACB /* Pods-AutoRefreshToolTests.debug.xcconfig */,
+				E98C7941C391A50018B17E10 /* Pods-AutoRefreshToolTests.release.xcconfig */,
+				1655D6E37CFAEA94533AE780 /* Pods-AutoRefreshToolUITests.debug.xcconfig */,
+				663E4CF1A786237C000DD9F8 /* Pods-AutoRefreshToolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5886163C200376A000D5F223 /* AutoRefreshTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58861669200376A100D5F223 /* Build configuration list for PBXNativeTarget "AutoRefreshTool" */;
+			buildPhases = (
+				7EA486EF5D42F1BF42CE610A /* [CP] Check Pods Manifest.lock */,
+				58861639200376A000D5F223 /* Sources */,
+				5886163A200376A000D5F223 /* Frameworks */,
+				5886163B200376A000D5F223 /* Resources */,
+				18BB2CBA6A7BD27A0BEC7469 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoRefreshTool;
+			productName = AutoRefreshTool;
+			productReference = 5886163D200376A000D5F223 /* AutoRefreshTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58861654200376A100D5F223 /* AutoRefreshToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5886166C200376A100D5F223 /* Build configuration list for PBXNativeTarget "AutoRefreshToolTests" */;
+			buildPhases = (
+				6649E4F5386237D53BED603E /* [CP] Check Pods Manifest.lock */,
+				58861651200376A100D5F223 /* Sources */,
+				58861652200376A100D5F223 /* Frameworks */,
+				58861653200376A100D5F223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58861657200376A100D5F223 /* PBXTargetDependency */,
+			);
+			name = AutoRefreshToolTests;
+			productName = AutoRefreshToolTests;
+			productReference = 58861655200376A100D5F223 /* AutoRefreshToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5886165F200376A100D5F223 /* AutoRefreshToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5886166F200376A100D5F223 /* Build configuration list for PBXNativeTarget "AutoRefreshToolUITests" */;
+			buildPhases = (
+				E5635B34D001972E888E72EE /* [CP] Check Pods Manifest.lock */,
+				5886165C200376A100D5F223 /* Sources */,
+				5886165D200376A100D5F223 /* Frameworks */,
+				5886165E200376A100D5F223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58861662200376A100D5F223 /* PBXTargetDependency */,
+			);
+			name = AutoRefreshToolUITests;
+			productName = AutoRefreshToolUITests;
+			productReference = 58861660200376A100D5F223 /* AutoRefreshToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58861635200376A000D5F223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Accentrix;
+				TargetAttributes = {
+					5886163C200376A000D5F223 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					58861654200376A100D5F223 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5886163C200376A000D5F223;
+					};
+					5886165F200376A100D5F223 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5886163C200376A000D5F223;
+					};
+				};
+			};
+			buildConfigurationList = 58861638200376A000D5F223 /* Build configuration list for PBXProject "AutoRefreshTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58861634200376A000D5F223;
+			productRefGroup = 5886163E200376A000D5F223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5886163C200376A000D5F223 /* AutoRefreshTool */,
+				58861654200376A100D5F223 /* AutoRefreshToolTests */,
+				5886165F200376A100D5F223 /* AutoRefreshToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5886163B200376A000D5F223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DE6E2C20060B1A00F84442 /* TestListVC.xib in Resources */,
+				5886164D200376A000D5F223 /* LaunchScreen.storyboard in Resources */,
+				5886164A200376A000D5F223 /* Assets.xcassets in Resources */,
+				58861648200376A000D5F223 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58861653200376A100D5F223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5886165E200376A100D5F223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18BB2CBA6A7BD27A0BEC7469 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AutoRefreshTool/Pods-AutoRefreshTool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoRefreshTool/Pods-AutoRefreshTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6649E4F5386237D53BED603E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoRefreshToolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA486EF5D42F1BF42CE610A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoRefreshTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5635B34D001972E888E72EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoRefreshToolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58861639200376A000D5F223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58861645200376A000D5F223 /* ViewController.m in Sources */,
+				58861650200376A100D5F223 /* main.m in Sources */,
+				5856042120045A6400B26AEA /* ACCNetworkTool.m in Sources */,
+				58861642200376A000D5F223 /* AppDelegate.m in Sources */,
+				58DE6E2B20060B1A00F84442 /* TestListVC.m in Sources */,
+				5886167B20037C9000D5F223 /* AutoRefreshTool.m in Sources */,
+				58DE6E2F20060B4400F84442 /* TestModel.m in Sources */,
+				5886167E20037D5B00D5F223 /* AutoRefreshModel.m in Sources */,
+				5886167820037BE100D5F223 /* TestAutoRefreshVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58861651200376A100D5F223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5886165A200376A100D5F223 /* AutoRefreshToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5886165C200376A100D5F223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58861665200376A100D5F223 /* AutoRefreshToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58861657200376A100D5F223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5886163C200376A000D5F223 /* AutoRefreshTool */;
+			targetProxy = 58861656200376A100D5F223 /* PBXContainerItemProxy */;
+		};
+		58861662200376A100D5F223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5886163C200376A000D5F223 /* AutoRefreshTool */;
+			targetProxy = 58861661200376A100D5F223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58861646200376A000D5F223 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58861647200376A000D5F223 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5886164B200376A000D5F223 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5886164C200376A000D5F223 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58861667200376A100D5F223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58861668200376A100D5F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5886166A200376A100D5F223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984B0A50E345041B74AB3AA2 /* Pods-AutoRefreshTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF42BX74F7;
+				INFOPLIST_FILE = AutoRefreshTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.AutoRefreshTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5886166B200376A100D5F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7BE39820C938DB0AA9856A /* Pods-AutoRefreshTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF42BX74F7;
+				INFOPLIST_FILE = AutoRefreshTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.AutoRefreshTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5886166D200376A100D5F223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C4668B30D9F0C462AC9ACB /* Pods-AutoRefreshToolTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF42BX74F7;
+				INFOPLIST_FILE = AutoRefreshToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.AutoRefreshToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoRefreshTool.app/AutoRefreshTool";
+			};
+			name = Debug;
+		};
+		5886166E200376A100D5F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E98C7941C391A50018B17E10 /* Pods-AutoRefreshToolTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF42BX74F7;
+				INFOPLIST_FILE = AutoRefreshToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.AutoRefreshToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoRefreshTool.app/AutoRefreshTool";
+			};
+			name = Release;
+		};
+		58861670200376A100D5F223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1655D6E37CFAEA94533AE780 /* Pods-AutoRefreshToolUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF42BX74F7;
+				INFOPLIST_FILE = AutoRefreshToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.AutoRefreshToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoRefreshTool;
+			};
+			name = Debug;
+		};
+		58861671200376A100D5F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663E4CF1A786237C000DD9F8 /* Pods-AutoRefreshToolUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF42BX74F7;
+				INFOPLIST_FILE = AutoRefreshToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.AutoRefreshToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoRefreshTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58861638200376A000D5F223 /* Build configuration list for PBXProject "AutoRefreshTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58861667200376A100D5F223 /* Debug */,
+				58861668200376A100D5F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58861669200376A100D5F223 /* Build configuration list for PBXNativeTarget "AutoRefreshTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5886166A200376A100D5F223 /* Debug */,
+				5886166B200376A100D5F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5886166C200376A100D5F223 /* Build configuration list for PBXNativeTarget "AutoRefreshToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5886166D200376A100D5F223 /* Debug */,
+				5886166E200376A100D5F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5886166F200376A100D5F223 /* Build configuration list for PBXNativeTarget "AutoRefreshToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58861670200376A100D5F223 /* Debug */,
+				58861671200376A100D5F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58861635200376A000D5F223 /* Project object */;
+}
